@@ -36,7 +36,7 @@ jobs:
         run: npm run build
 
       - name: Copy dist content root
-        run: cp -r dist/ .
+        run: cp -r dist/* .
 
       # Note: Assuming you have a dist folder after the build, you'd upload & deploy only that
       - name: Deploy to GitHub Pages
