@@ -35,10 +35,10 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Copy dist content root
+        run: cp dist/ .
+
       # Note: Assuming you have a dist folder after the build, you'd upload & deploy only that
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        with:
-          # Source directory, relative to the workspace
-          path: ./dist
