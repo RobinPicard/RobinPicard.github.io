@@ -38,8 +38,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Upload entire repository
-          path: '.dist/'
+          path: 'dist'
 
       # Note: Assuming you have a dist folder after the build, you'd upload & deploy only that
       - name: Deploy to GitHub Pages
