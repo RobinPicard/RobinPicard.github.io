@@ -25,7 +25,8 @@ export default {
 
 #app {
   min-width: 1320px;
-  font-family: Garamond;
+  font-family: Georgia, Garamond;
+  line-height: 130%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -45,7 +46,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('../public/background.jpeg') no-repeat center center fixed; 
+  background: url('../public/background.jpg') no-repeat center center fixed; 
   background-size: cover;
   z-index: -1;
 }
@@ -60,7 +61,7 @@ body {
 }
 
 #app-page {
-  width: 640px;
+  width: 680px;
   height: 100vh;
   overflow-y: auto;
   margin: 0 auto;
@@ -79,12 +80,12 @@ h2, h3 {
 
 h2 {
   margin-top: 0px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 h3 {
   margin-top: 24px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
 }
 
 a {

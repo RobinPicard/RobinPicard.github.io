@@ -69,7 +69,7 @@
   }
 
   li {
-  margin-bottom: 4px;
+  margin-bottom: 12px;
   }
 
 </style>
